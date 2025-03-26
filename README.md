@@ -13,11 +13,11 @@ Publico-alvo:
 * Empresas e Patrocinadores 
 
 2.Mapa do Site 
-![Mapa do site ](imagem/image-1.png)
+![Mapa do site](image-1.png)
 
 3.Protótipo de Baixa Fidelilade
 
-![Protótipo](imagem/image.png)
+![Protótipo](image.png)
 
 
 4.Linguagens e Ferramnetas:
