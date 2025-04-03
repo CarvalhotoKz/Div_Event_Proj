@@ -6,13 +6,27 @@ body{
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     color: #f4f4f4;
+    overflow-x: hidden;
+    
 }
 
 /* CABEÇALHO*/
 header{
     background-color: #333;
     padding-top: 10px;
+    display: flex;
+  
+}
 
+.header-container{
+    position: relative;
+    top: 20px;
+}
+
+.logo img{
+    max-width: 150px;
+    height: 150px;
+    padding: 1rem;
 }
 
 .menu{
@@ -32,5 +46,33 @@ header{
 .menu li {
     margin-right: 50px; /* Dá espaçamento entre os itens */
     
+  }
+
+  .banner{
+    background-color: #333;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    left: 50px;
+    top: 25px;
+
+  }
+
+  footer{
+    background-color: #333;
+  }
+
+  /* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-info {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
   }
 
