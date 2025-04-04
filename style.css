@@ -18,17 +18,50 @@ header{
   
 }
 
-.header-container{
+.header-container h1{
     position: relative;
-    top: 20px;
+    top: 2rem;
+    margin: 10px;
+}
+
+.header-container h2{
+  position: relative;
+  top: 5px;
+  left: 5rem;
+  color: #007BFF;
+}
+
+.header-container{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo img{
-    max-width: 150px;
-    height: 150px;
-    padding: 1rem;
+    max-width: 100px;
+    height: 100px;
+    position: relative;
+    left: 8px;
+    border: 2px solid #222;
+    margin: 5px;
 }
 
+.login{
+  display: flex;
+  gap: 40px;
+  position: relative;
+  left: 760px;
+  top: 2.5rem;
+
+}
+
+#emoji_login{
+  font-size: 40px;
+  padding-top: 0.5rem;
+  position: relative;
+  left: 780px;
+  top: 2rem;
+}
+
+/*Barra de Pág*/
 .menu{
     list-style-type: none; /* Remove as bolinhas */
     padding: 0; /* Remove o padding */
@@ -49,6 +82,8 @@ header{
   }
 
   .banner{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     background-color: #333;
     width: 500px;
     padding: 1rem;
@@ -57,6 +92,22 @@ header{
     left: 50px;
     top: 25px;
 
+  }
+
+  .btn-ins {
+    background-color: #007BFF; /* azul chamativo */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-ins:hover {
+    background-color: #0056b3; /* cor ao passar o mouse */
   }
 
   footer{
