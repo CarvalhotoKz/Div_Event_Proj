@@ -2,9 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(Imagem/plano_de_fundo.png);
-    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-color: #f4f4f4;
     color: #f4f4f4;
     overflow-x: hidden;
     
@@ -12,10 +10,21 @@ body{
 
 /* CABEÇALHO*/
 header{
-    background-color: #333;
-    padding-top: 10px;
-    display: flex;
+  background-color: #333;
+  padding-top: 10px;
+  display: flex;
   
+}
+
+.background-banner{
+  background-image: url(Imagem/plano_de_fundo.png);
+  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  height: 500px;
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  position: relative;
+  top: -50px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+
 }
 
 .header-container h1{
@@ -81,6 +90,7 @@ header{
     
   }
 
+  /*Banner Principal*/
   .banner{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -94,6 +104,7 @@ header{
 
   }
 
+  /*Botão Inscrever-se*/
   .btn-ins {
     background-color: #007BFF; /* azul chamativo */
     color: white;
@@ -110,9 +121,207 @@ header{
     background-color: #0056b3; /* cor ao passar o mouse */
   }
 
-  footer{
-    background-color: #333;
+  /*Parte do Olavo*/
+  
+  .sobre{
+    color: #000000;
   }
+
+  section {
+    padding: 20px;
+  }
+  
+  .events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .event {
+    width: 200px;
+  }
+  
+  .event img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .organizers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .organizer {
+    width: 150px;
+  }
+  
+  .organizer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .button {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+    border-radius: 15px;
+    background-image: url('imagem/banner-fevereiro.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .banner-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+  }
+  
+  .banner-content p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .event-info {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .event-info span {
+    display: block;
+  }
+  
+  .evento-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #1a1a1a);
+    color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .evento-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+  }
+  
+  .evento-info h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  
+  .evento-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .evento-status {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #ff4c4c;
+    padding: 6px 12px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .evento-card {
+    flex: 1;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .evento-card img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  .botao-inscrever {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .botao-inscrever:hover {
+    transform: scale(1.05);
+    background-color: #155ab6;
+  }
+  /*Fim da parte do Olavo*/
+
+  /*Rodapé do Lucas*/
+  footer{
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      width: 100%;
+      height: 150px;
+  }
+
+  .footer-info{
+    position: relative;
+    left: 270px;
+    top: -150px;
+  }
+
+    .footer-logos {
+      display: flex;
+      gap: 20px;
+      position: relative;
+      left: 1070px;
+      top: -15rem;
+    }
+    
+    .logo {
+      height: 100px;
+    }
+  /*Fim do Rodapé*/
 
   /* Responsividade para telas pequenas */
 @media (max-width: 768px) {
